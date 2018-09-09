@@ -29,9 +29,6 @@ public class Register {
 	public void withdrawl(double desiredAmount) {
 
 		balance -= desiredAmount;
-
-
-
 	}
 
 
