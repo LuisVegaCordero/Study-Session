@@ -14,10 +14,18 @@ public class Register {
 		public Register() {
 			
 			balance = 0;
-			
-			//espero que no tarde medio hora mas
-			
+									
 		}
+		
+		public void deposit(double depositedAmount) {
+			
+			balance += depositedAmount;
+		}
+		
+		public double getBalance() {
+			return balance;
+		}
+		
 		
 		
 }
