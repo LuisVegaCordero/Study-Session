@@ -15,6 +15,8 @@ public class Register {
 			
 			balance = 0;
 			
+			//espero que no tarde medio hora mas
+			
 		}
 		
 		
