@@ -5,6 +5,10 @@ public class Main {
 		
 		System.out.println("Welcome to Java");
 		
+		RegisterDisplay testing = new RegisterDisplay();
+		testing.welcome();
+		testing.userinterface();
+		
 		Register EmmanuelAccount = new Register(500);
 		System.out.println("You have deposited: " +EmmanuelAccount.getBalance());
 		EmmanuelAccount.deposit(2000);
