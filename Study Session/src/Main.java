@@ -22,6 +22,7 @@ public class Main {
 		System.out.println("Your balance is: " +EmmanuelAccount.getBalance());
 		
 		//test de git #1
+		//test de git #2
 	}
 
 }
