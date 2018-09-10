@@ -5,6 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		System.out.println("Welcome to Java");
+		System.out.println("Why is this so fucking annoying!");
 		
 		RegisterDisplay testing = new RegisterDisplay();
 		Scanner userinput = new Scanner(System.in);
