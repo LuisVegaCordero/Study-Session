@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Main {
 	
@@ -6,8 +7,13 @@ public class Main {
 		System.out.println("Welcome to Java");
 		
 		RegisterDisplay testing = new RegisterDisplay();
+		Scanner userinput = new Scanner(System.in);
+		
 		testing.welcome();
-		testing.userinterface();
+		testing.accountSelection();
+		
+		int inputed = userinput.nextInt();
+		
 		
 		Register EmmanuelAccount = new Register(500);
 		System.out.println("You have deposited: " +EmmanuelAccount.getBalance());
